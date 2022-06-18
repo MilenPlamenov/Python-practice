@@ -24,7 +24,7 @@ def all_numbers_are_aces(cards_list):
 t = int(input())  # tests
 
 for _ in range(t):
-    n = int(input())  # num of cards for each test in python this is useless cause its high level language !!
+    n = int(input())
     cards = input().split()
     total_sum_per_test = 0
     if all_numbers_are_same(cards) and all_numbers_are_aces(cards):
