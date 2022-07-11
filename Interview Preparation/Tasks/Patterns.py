@@ -89,3 +89,14 @@ def pattern_five(n):
 # K L M N O
 # P Q R S T U
 # V W X Y Z [ \
+
+
+# -----------------------------------------------
+
+
+def pattern_six(n):
+    for x in range(n):
+        print(' '*(n-x-1)+'*'*(2*x+1))
+
+
+# pattern_six(9)
